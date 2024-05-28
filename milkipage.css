@@ -120,6 +120,7 @@ body{
     color: rgb(247, 255, 1);
 }
 #box3{
+    position: relative;
     background-image: url("sandeep2.jpg");
     
     background-position: right;
