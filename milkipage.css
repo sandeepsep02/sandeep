@@ -122,7 +122,6 @@ body{
 #box3{
     position: relative;
     background-image: url("sandeep2.jpg");
-    
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,6 +131,23 @@ body{
     margin-top: 100px;
     margin-left: 70%;
     border-radius: 50%;
+}
+@-webkit-keyframes #box3 {
+  from {
+   width: 0;
+  }
+  to {
+   width: 600px;
+  }
+}
+
+keyframes example {
+  from {
+   width: 0;
+  }
+  to {
+   width: 600px;
+  }
 }
 
 .social-icon,
