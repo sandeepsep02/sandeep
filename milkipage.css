@@ -1,0 +1,191 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-color: rgb(242, 0, 255);
+
+}
+
+#box1{
+    position: absolute;
+    height: 80%;
+    width: 70%;
+    background-color: rgb(88, 255, 183);
+    margin-top: 5%;
+    margin-left: 15%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#box2{
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(11, 3, 245);
+    box-shadow: rgb(7, 7, 7) 1px 1px 15px 0px;
+}
+#home{
+    height: 20px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+    color: yellow;
+    list-style: inside;
+}
+#home:hover{
+   
+    
+    
+}
+#logo{
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 10px;
+    margin-left: 70%;
+    font-size: 25px;
+    /* font-style:oblique; */
+    cursor: pointer;
+    color: yellow;
+}
+#logo:hover{
+    position: absolute;
+    border-radius: 13px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 251, 0);
+
+}
+#business{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    height: 70px;
+    font-size: 70px;
+    margin-top: 13%;
+    margin-left: 5%;
+    font-style: normal;
+    color: rgb(56, 54, 54);
+    font-weight: 600;
+
+
+}
+#lern{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    height: 70px;
+    font-size: 35px;
+    margin-top: 20%;
+    margin-left: 6.5%;
+    font-style: normal;
+    color: rgb(56, 54, 54);
+    font-weight: 50;
+
+}
+#lorem{
+    color: rgb(2, 36, 255);
+    position: absolute;
+    border: none;
+    height: 70px;
+    font-size: 20px;
+    margin-top: 27%;
+    margin-left: 6.5%;
+    font-style: normal;
+    font-weight: 50;
+
+}
+#readmore{
+    position: absolute;
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    border-color: solid 2px black;
+    margin-top: 40%;
+    margin-left: 7%;
+    font-size: 20px;
+    font-style:oblique;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+#readmore:hover{
+    background-color: deeppink;
+    color: rgb(247, 255, 1);
+}
+#box3{
+    background-image: url("sandeep2.jpg");
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 70%;
+    border-radius: 50%;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #002aff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #ff05ff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+  font-weight: bold;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #ffff00;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+  
+}
+#foot{
+    margin-top: 12%;
+}
+#copyright{
+    margin-left: 37%;
+    margin-top: -0.4%;
+}
