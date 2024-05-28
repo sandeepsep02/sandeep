@@ -121,7 +121,7 @@ body{
 }
 #box3{
     position: relative;
-    background-image: url("sandeep2.jpg");
+/*     background-image: url("sandeep2.jpg"); */
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
